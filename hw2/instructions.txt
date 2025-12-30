@@ -1,0 +1,52 @@
+Instructions to Run linear_classification.py
+
+Prerequisites
+- Python 3.x installed on your system
+- Virtual environment manager (conda or venv recommended)
+
+Setup Instructions
+
+1. Create and Activate Virtual Environment
+Using conda:
+conda create -n mnist_env python=3.8
+conda activate mnist_env
+
+Using venv:
+python -m venv mnist_env
+# On Windows:
+mnist_env\Scripts\activate
+# On macOS/Linux:
+source mnist_env/bin/activate
+
+2. Install Required Dependencies
+pip install -r requirements.txt
+
+3. Download MNIST Dataset
+Ensure the MNIST dataset is in the following directory structure:
+./datasets/MNIST/raw/
+
+The code expects to find the MNIST files in this location. 
+
+4. Run the Code
+python linear_classification.py
+
+Expected Output
+The program will:
+1. Train 45 binary classifiers (one for each digit pair)
+2. Test each classifier on the test set
+3. Print accuracy results for all 45 digit pairs
+4. Display the average accuracy across all pairs
+
+Sample output format:
+Digits 0 vs 1: Accuracy = 99.45%
+Digits 0 vs 2: Accuracy = 98.23%
+...
+Average Accuracy across all pairs: 95.67%
+
+Runtime
+The code should complete in under 5 minutes on a standard laptop.
+
+Troubleshooting
+- If you get import errors, ensure all dependencies from requirements.txt are installed
+- If the code runs slowly, verify that numpy arrays are being stored as floats (already handled in the code)
+- If you get file not found errors, check that the MNIST dataset is in the correct directory path
