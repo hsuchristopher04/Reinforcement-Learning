@@ -1,0 +1,23 @@
+[
+  {
+    "run": "ablation-mse-seed100",
+    "best_validation": 500.0,
+    "best_step": 50000,
+    "final_validation": 500.0,
+    "final_step": 50000
+  },
+  {
+    "run": "mse-confirm-seed101",
+    "best_validation": 500.0,
+    "best_step": 45000,
+    "final_validation": 500.0,
+    "final_step": 50000
+  },
+  {
+    "run": "mse-confirm-seed102",
+    "best_validation": 500.0,
+    "best_step": 50000,
+    "final_validation": 500.0,
+    "final_step": 50000
+  }
+]

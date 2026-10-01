@@ -1,0 +1,32 @@
+{
+  "collection_seeds": [
+    20000000,
+    20001000,
+    20002000,
+    20003000,
+    20004000
+  ],
+  "episodes_per_dataset": 200,
+  "train_episodes": 160,
+  "validation_episodes": 40,
+  "split_seed": 2026,
+  "fit_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "max_leaf_nodes": 8,
+  "max_depth": null,
+  "evaluation_seed": 21000000,
+  "evaluation_episodes": 500,
+  "selection": "none; report all 15 fits",
+  "exact_duplicate_policy_evaluation": "reuse identical deterministic policy results on identical seeds",
+  "input_sha256": {
+    "runs\\ablation-mse-seed100\\best.pt": "60e8c1729c4e4de0d1e020b4d76fc132116e10f30abef259e1588012d7999685",
+    "runs\\capacity-v1\\selected_tree.json": "e6b7ead54564104019c9a59b244e8dd5ea4bdb7051e27bf7cc325f96b9ce322d"
+  },
+  "sklearn": "1.9.1",
+  "numpy": "2.3.2",
+  "torch": "2.8.0+cpu",
+  "gymnasium": "1.2.0"
+}

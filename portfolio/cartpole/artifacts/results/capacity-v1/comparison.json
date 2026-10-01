@@ -1,0 +1,102 @@
+[
+  {
+    "dataset": "original",
+    "budget": 4,
+    "leaves": 4,
+    "depth": 3,
+    "mean_return": 201.73,
+    "completion_rate": 0.0,
+    "position_failures": 0,
+    "angle_failures": 200
+  },
+  {
+    "dataset": "original",
+    "budget": 8,
+    "leaves": 8,
+    "depth": 4,
+    "mean_return": 498.145,
+    "completion_rate": 0.985,
+    "position_failures": 3,
+    "angle_failures": 0
+  },
+  {
+    "dataset": "original",
+    "budget": 16,
+    "leaves": 16,
+    "depth": 8,
+    "mean_return": 499.55,
+    "completion_rate": 0.995,
+    "position_failures": 1,
+    "angle_failures": 0
+  },
+  {
+    "dataset": "original",
+    "budget": 32,
+    "leaves": 32,
+    "depth": 8,
+    "mean_return": 295.56,
+    "completion_rate": 0.31,
+    "position_failures": 0,
+    "angle_failures": 138
+  },
+  {
+    "dataset": "original",
+    "budget": 64,
+    "leaves": 64,
+    "depth": 12,
+    "mean_return": 500.0,
+    "completion_rate": 1.0,
+    "position_failures": 0,
+    "angle_failures": 0
+  },
+  {
+    "dataset": "augmented",
+    "budget": 4,
+    "leaves": 4,
+    "depth": 2,
+    "mean_return": 11.395,
+    "completion_rate": 0.0,
+    "position_failures": 0,
+    "angle_failures": 200
+  },
+  {
+    "dataset": "augmented",
+    "budget": 8,
+    "leaves": 8,
+    "depth": 5,
+    "mean_return": 9.36,
+    "completion_rate": 0.0,
+    "position_failures": 0,
+    "angle_failures": 200
+  },
+  {
+    "dataset": "augmented",
+    "budget": 16,
+    "leaves": 16,
+    "depth": 7,
+    "mean_return": 375.31,
+    "completion_rate": 0.575,
+    "position_failures": 55,
+    "angle_failures": 30
+  },
+  {
+    "dataset": "augmented",
+    "budget": 32,
+    "leaves": 32,
+    "depth": 10,
+    "mean_return": 135.43,
+    "completion_rate": 0.035,
+    "position_failures": 0,
+    "angle_failures": 193
+  },
+  {
+    "dataset": "augmented",
+    "budget": 64,
+    "leaves": 64,
+    "depth": 13,
+    "mean_return": 291.64,
+    "completion_rate": 0.375,
+    "position_failures": 0,
+    "angle_failures": 125
+  }
+]

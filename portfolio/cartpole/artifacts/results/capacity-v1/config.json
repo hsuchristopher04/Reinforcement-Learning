@@ -1,0 +1,32 @@
+{
+  "budgets": [
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "datasets": [
+    "original",
+    "augmented"
+  ],
+  "tree_seed": 2026,
+  "max_depth": null,
+  "criterion": "gini",
+  "sample_weight": "uniform",
+  "validation_seed": 17000000,
+  "validation_episodes": 200,
+  "test_seed": 18000000,
+  "test_episodes": 500,
+  "selection": "smallest actual leaves with >=90% completion; ties completion then return; fallback highest completion then return",
+  "input_sha256": {
+    "runs\\distillation-v1\\demonstrations.npz": "630d42c0cb758abcf8c4d0a35007eb4c6282695da8df7c41a920f24030564a5a",
+    "runs\\dagger-v1\\round1_new_examples.npz": "8ccb6d7dfd6e5379ad899722ad532b5adf955f5ccb859a3fa4b0e4638b9d38f9",
+    "runs\\distillation-v1\\selected_tree.json": "523d148009850eecf1369f1396c0ec25f71e3c4e3638aa1eab337c0e68d126f4",
+    "runs\\ablation-mse-seed100\\best.pt": "60e8c1729c4e4de0d1e020b4d76fc132116e10f30abef259e1588012d7999685"
+  },
+  "sklearn": "1.9.1",
+  "numpy": "2.3.2",
+  "torch": "2.8.0+cpu",
+  "gymnasium": "1.2.0"
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": 1,
+  "env_name": "CartPole-v1",
+  "features": [
+    "cart_position",
+    "cart_velocity",
+    "pole_angle",
+    "pole_angular_velocity"
+  ],
+  "actions": {
+    "0": "left",
+    "1": "right"
+  },
+  "depth": 1,
+  "leaves": 2,
+  "children_left": [
+    1,
+    -1,
+    -1
+  ],
+  "children_right": [
+    2,
+    -1,
+    -1
+  ],
+  "feature": [
+    3,
+    -2,
+    -2
+  ],
+  "threshold": [
+    -0.3349107503890991,
+    -2.0,
+    -2.0
+  ],
+  "node_action": [
+    1,
+    0,
+    1
+  ]
+}

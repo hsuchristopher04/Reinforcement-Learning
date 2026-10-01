@@ -1,0 +1,7 @@
+# Release dependencies tested in an isolated Windows / Python 3.13 environment.
+# Install a CUDA-specific PyTorch build separately if GPU training is desired.
+torch==2.14.1
+gymnasium==1.2.0
+numpy==2.3.2
+matplotlib>=3.9,<4
+scikit-learn==1.9.1

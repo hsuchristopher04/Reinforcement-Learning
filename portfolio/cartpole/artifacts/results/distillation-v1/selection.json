@@ -1,0 +1,14 @@
+{
+  "selected": {
+    "max_depth": 2,
+    "actual_depth": 2,
+    "leaves": 4,
+    "action_accuracy": 0.7671,
+    "mean_return": 486.84,
+    "std_return": 25.70125288774849,
+    "completion_rate": 0.68
+  },
+  "qualified_on_validation": true,
+  "rule": "fewest leaves with mean >=475; otherwise highest mean (exploratory fallback)",
+  "test_seed": 8000000
+}

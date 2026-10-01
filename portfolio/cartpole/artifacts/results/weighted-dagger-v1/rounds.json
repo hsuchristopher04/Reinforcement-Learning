@@ -1,0 +1,12 @@
+[
+  {
+    "weight": 0.1,
+    "round": 1,
+    "leaves": 4,
+    "mean_return": 483.55,
+    "min_return": 356.0,
+    "completion_rate": 0.66,
+    "position_failures": 68,
+    "angle_failures": 0
+  }
+]

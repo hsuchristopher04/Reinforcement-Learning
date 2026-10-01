@@ -1,0 +1,10 @@
+|--- pole_angular_velocity <= -0.33491075
+|   |--- cart_position <= -0.18154711
+|   |   |--- class: 0
+|   |--- cart_position >  -0.18154711
+|   |   |--- class: 1
+|--- pole_angular_velocity >  -0.33491075
+|   |--- pole_angle <= -0.02094296
+|   |   |--- class: 0
+|   |--- pole_angle >  -0.02094296
+|   |   |--- class: 1

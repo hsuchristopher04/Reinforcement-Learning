@@ -1,0 +1,51 @@
+[
+  {
+    "run": "teacher-seed100",
+    "best_validation": 167.6,
+    "best_step": 5000,
+    "final_validation": 98.1,
+    "final_step": 50000
+  },
+  {
+    "run": "ablation-frequency4-seed100",
+    "best_validation": 292.0,
+    "best_step": 5000,
+    "final_validation": 124.8,
+    "final_step": 50000
+  },
+  {
+    "run": "ablation-hardtarget-seed100",
+    "best_validation": 298.9,
+    "best_step": 50000,
+    "final_validation": 298.9,
+    "final_step": 50000
+  },
+  {
+    "run": "ablation-lr1e4-seed100",
+    "best_validation": 207.5,
+    "best_step": 5000,
+    "final_validation": 85.9,
+    "final_step": 50000
+  },
+  {
+    "run": "ablation-small-seed100",
+    "best_validation": 249.0,
+    "best_step": 5000,
+    "final_validation": 103.9,
+    "final_step": 50000
+  },
+  {
+    "run": "ablation-mse-seed100",
+    "best_validation": 500.0,
+    "best_step": 50000,
+    "final_validation": 500.0,
+    "final_step": 50000
+  },
+  {
+    "run": "ablation-bounded-seed100",
+    "best_validation": 500.0,
+    "best_step": 35000,
+    "final_validation": 225.4,
+    "final_step": 50000
+  }
+]

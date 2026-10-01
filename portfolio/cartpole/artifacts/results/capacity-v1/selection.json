@@ -1,0 +1,14 @@
+{
+  "selected": {
+    "dataset": "original",
+    "budget": 8,
+    "leaves": 8,
+    "depth": 4,
+    "mean_return": 498.145,
+    "completion_rate": 0.985,
+    "position_failures": 3,
+    "angle_failures": 0
+  },
+  "qualified": true,
+  "selected_before_test": true
+}

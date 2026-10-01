@@ -1,0 +1,94 @@
+|--- pole_angular_velocity <= -0.334911
+|   |--- pole_angle <= 0.040806
+|   |   |--- cart_position <= -0.088919
+|   |   |   |--- pole_angular_velocity <= -0.393176
+|   |   |   |   |--- pole_angle <= 0.022995
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angle >  0.022995
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- pole_angular_velocity >  -0.393176
+|   |   |   |   |--- pole_angle <= 0.004525
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angle >  0.004525
+|   |   |   |   |   |--- class: 0
+|   |   |--- cart_position >  -0.088919
+|   |   |   |--- pole_angle <= -0.048458
+|   |   |   |   |--- pole_angular_velocity <= -0.874866
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angular_velocity >  -0.874866
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- pole_angle >  -0.048458
+|   |   |   |   |--- pole_angular_velocity <= -0.938809
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angular_velocity >  -0.938809
+|   |   |   |   |   |--- class: 1
+|   |--- pole_angle >  0.040806
+|   |   |--- cart_position <= -1.054488
+|   |   |   |--- cart_velocity <= 0.069713
+|   |   |   |   |--- pole_angular_velocity <= -0.431377
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angular_velocity >  -0.431377
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- cart_velocity >  0.069713
+|   |   |   |   |--- pole_angular_velocity <= -0.469717
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angular_velocity >  -0.469717
+|   |   |   |   |   |--- class: 0
+|   |   |--- cart_position >  -1.054488
+|   |   |   |--- pole_angular_velocity <= -0.548019
+|   |   |   |   |--- pole_angular_velocity <= -0.611284
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angular_velocity >  -0.611284
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- pole_angular_velocity >  -0.548019
+|   |   |   |   |--- cart_position <= -0.824188
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cart_position >  -0.824188
+|   |   |   |   |   |--- class: 0
+|--- pole_angular_velocity >  -0.334911
+|   |--- pole_angle <= -0.020546
+|   |   |--- cart_velocity <= -0.531387
+|   |   |   |--- pole_angular_velocity <= 0.366229
+|   |   |   |   |--- pole_angle <= -0.051717
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angle >  -0.051717
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- pole_angular_velocity >  0.366229
+|   |   |   |   |--- pole_angular_velocity <= 0.424111
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- pole_angular_velocity >  0.424111
+|   |   |   |   |   |--- class: 1
+|   |   |--- cart_velocity >  -0.531387
+|   |   |   |--- pole_angular_velocity <= 0.240105
+|   |   |   |   |--- pole_angular_velocity <= -0.179261
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- pole_angular_velocity >  -0.179261
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- pole_angular_velocity >  0.240105
+|   |   |   |   |--- cart_position <= -0.438494
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cart_position >  -0.438494
+|   |   |   |   |   |--- class: 1
+|   |--- pole_angle >  -0.020546
+|   |   |--- cart_position <= -0.887198
+|   |   |   |--- cart_position <= -1.083321
+|   |   |   |   |--- cart_velocity <= 0.187913
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cart_velocity >  0.187913
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- cart_position >  -1.083321
+|   |   |   |   |--- cart_velocity <= -0.236262
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- cart_velocity >  -0.236262
+|   |   |   |   |   |--- class: 1
+|   |   |--- cart_position >  -0.887198
+|   |   |   |--- pole_angular_velocity <= -0.075011
+|   |   |   |   |--- cart_velocity <= -0.089669
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- cart_velocity >  -0.089669
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- pole_angular_velocity >  -0.075011
+|   |   |   |   |--- pole_angular_velocity <= 0.139753
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- pole_angular_velocity >  0.139753
+|   |   |   |   |   |--- class: 1

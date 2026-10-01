@@ -1,0 +1,36 @@
+{
+  "rounds": 5,
+  "episodes_per_round": 50,
+  "max_depth": 2,
+  "tree_seed": 2026,
+  "diagnostic_seeds": [
+    10000000,
+    10000099
+  ],
+  "collection_start_seeds": [
+    11001000,
+    11002000,
+    11003000,
+    11004000,
+    11005000
+  ],
+  "validation_seeds": [
+    12000000,
+    12000099
+  ],
+  "test_seeds": [
+    13000000,
+    13000499
+  ],
+  "selection": "highest validation completion, then mean return, then earliest round",
+  "mixing": "pure learner rollouts (beta=0); uniform weight on all aggregated examples",
+  "sklearn": "1.9.1",
+  "numpy": "2.3.2",
+  "torch": "2.8.0+cpu",
+  "gymnasium": "1.2.0",
+  "input_sha256": {
+    "runs\\ablation-mse-seed100\\best.pt": "60e8c1729c4e4de0d1e020b4d76fc132116e10f30abef259e1588012d7999685",
+    "runs\\distillation-v1\\selected_tree.json": "523d148009850eecf1369f1396c0ec25f71e3c4e3638aa1eab337c0e68d126f4",
+    "runs\\distillation-v1\\demonstrations.npz": "630d42c0cb758abcf8c4d0a35007eb4c6282695da8df7c41a920f24030564a5a"
+  }
+}

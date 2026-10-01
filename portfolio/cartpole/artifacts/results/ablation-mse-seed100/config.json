@@ -1,0 +1,22 @@
+{
+  "command": "train",
+  "steps": 50000,
+  "seed": 100,
+  "output": "C:\\Users\\chris\\Dropbox\\PC\\Desktop\\Future\\Projects\\RL Project\\runs\\ablation-mse-seed100",
+  "warmup_steps": 1000,
+  "eval_every": 5000,
+  "eval_episodes": 10,
+  "test_episodes": 100,
+  "learning_rate": 0.0003,
+  "loss": "mse",
+  "hidden_size": 256,
+  "train_every": 1,
+  "target_update": "soft",
+  "target_every": 1000,
+  "skip_test": true,
+  "env_name": "CartPole-v1",
+  "device": "cpu",
+  "torch_version": "2.8.0+cpu",
+  "gymnasium_version": "1.2.0",
+  "numpy_version": "2.3.2"
+}

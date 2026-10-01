@@ -1,0 +1,52 @@
+[
+  {
+    "round": 1,
+    "leaves": 4,
+    "added_examples": 24295,
+    "total_examples": 104295,
+    "mean_return": 11.25,
+    "std_return": 2.9677432503503396,
+    "min_return": 9.0,
+    "completion_rate": 0.0
+  },
+  {
+    "round": 2,
+    "leaves": 4,
+    "added_examples": 555,
+    "total_examples": 104850,
+    "mean_return": 11.28,
+    "std_return": 3.0002666548158685,
+    "min_return": 9.0,
+    "completion_rate": 0.0
+  },
+  {
+    "round": 3,
+    "leaves": 4,
+    "added_examples": 586,
+    "total_examples": 105436,
+    "mean_return": 11.28,
+    "std_return": 3.0002666548158685,
+    "min_return": 9.0,
+    "completion_rate": 0.0
+  },
+  {
+    "round": 4,
+    "leaves": 4,
+    "added_examples": 577,
+    "total_examples": 106013,
+    "mean_return": 11.25,
+    "std_return": 2.9677432503503396,
+    "min_return": 9.0,
+    "completion_rate": 0.0
+  },
+  {
+    "round": 5,
+    "leaves": 4,
+    "added_examples": 563,
+    "total_examples": 106576,
+    "mean_return": 11.25,
+    "std_return": 2.9677432503503396,
+    "min_return": 9.0,
+    "completion_rate": 0.0
+  }
+]

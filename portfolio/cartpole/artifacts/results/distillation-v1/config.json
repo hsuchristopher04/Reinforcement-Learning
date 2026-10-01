@@ -1,0 +1,33 @@
+{
+  "teacher": "C:\\Users\\chris\\Dropbox\\PC\\Desktop\\Future\\Projects\\RL Project\\runs\\ablation-mse-seed100\\best.pt",
+  "teacher_sha256": "60e8c1729c4e4de0d1e020b4d76fc132116e10f30abef259e1588012d7999685",
+  "source_sha256": {
+    "distill.py": "da68d7a17413a6422ef1c797e281d942aaaba89e4f9933691fcd4b4667921858",
+    "cartpole.py": "4f245d4c0b6fc7a10298d9443b90bf5357768f46e965f6948393a33f0fbf9d11",
+    "model.py": "6cefbfb10ea931a4974b6faae663aafa2b059ab74c64fe7ef76597a29199f549",
+    "utils.py": "7eae798153b6c2b973f4ce1c0d0ae613d11fe6917fc12b62b11be8477334d4ab"
+  },
+  "env_name": "CartPole-v1",
+  "depths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10
+  ],
+  "collection_episodes": 200,
+  "collection_seed": 6000000,
+  "split_seed": 2026,
+  "tree_seed": 2026,
+  "control_validation_seed": 7000000,
+  "test_seed": 8000000,
+  "evaluation_episodes": 100,
+  "selection_target": 475,
+  "sklearn": "1.9.1",
+  "numpy": "2.3.2",
+  "torch": "2.8.0+cpu",
+  "gymnasium": "1.2.0"
+}

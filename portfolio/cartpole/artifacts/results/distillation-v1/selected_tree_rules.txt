@@ -1,0 +1,10 @@
+|--- pole_angular_velocity <= -0.334911
+|   |--- pole_angle <= 0.040806
+|   |   |--- class: 0
+|   |--- pole_angle >  0.040806
+|   |   |--- class: 0
+|--- pole_angular_velocity >  -0.334911
+|   |--- pole_angle <= -0.020546
+|   |   |--- class: 0
+|   |--- pole_angle >  -0.020546
+|   |   |--- class: 1

@@ -1,0 +1,6 @@
+{
+  "continue_rounds": false,
+  "chosen_weight": 0.1,
+  "baseline_completion": 0.66,
+  "candidate_completion": 0.66
+}

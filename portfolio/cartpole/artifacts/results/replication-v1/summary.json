@@ -1,0 +1,48 @@
+{
+  "datasets": [
+    {
+      "dataset": 1,
+      "mean_completion": 0.908,
+      "min_completion": 0.908,
+      "max_completion": 0.908,
+      "mean_return": 492.686,
+      "distinct_trees": 1
+    },
+    {
+      "dataset": 2,
+      "mean_completion": 0.9899999999999999,
+      "min_completion": 0.99,
+      "max_completion": 0.99,
+      "mean_return": 498.77,
+      "distinct_trees": 1
+    },
+    {
+      "dataset": 3,
+      "mean_completion": 0.984,
+      "min_completion": 0.984,
+      "max_completion": 0.984,
+      "mean_return": 497.792,
+      "distinct_trees": 1
+    },
+    {
+      "dataset": 4,
+      "mean_completion": 0.9780000000000001,
+      "min_completion": 0.978,
+      "max_completion": 0.978,
+      "mean_return": 498.568,
+      "distinct_trees": 1
+    },
+    {
+      "dataset": 5,
+      "mean_completion": 0.996,
+      "min_completion": 0.996,
+      "max_completion": 0.996,
+      "mean_return": 499.2459999999999,
+      "distinct_trees": 1
+    }
+  ],
+  "mean_dataset_completion": 0.9712,
+  "min_dataset_completion": 0.908,
+  "max_dataset_completion": 0.996,
+  "distinct_trees": 5
+}

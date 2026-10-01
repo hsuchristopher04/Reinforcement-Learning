@@ -1,0 +1,22 @@
+|--- pole_angular_velocity <= -0.334911
+|   |--- pole_angle <= 0.040806
+|   |   |--- cart_position <= -0.088919
+|   |   |   |--- class: 0
+|   |   |--- cart_position >  -0.088919
+|   |   |   |--- class: 0
+|   |--- pole_angle >  0.040806
+|   |   |--- cart_position <= -1.054488
+|   |   |   |--- class: 0
+|   |   |--- cart_position >  -1.054488
+|   |   |   |--- class: 1
+|--- pole_angular_velocity >  -0.334911
+|   |--- pole_angle <= -0.020546
+|   |   |--- cart_velocity <= -0.531387
+|   |   |   |--- class: 1
+|   |   |--- cart_velocity >  -0.531387
+|   |   |   |--- class: 0
+|   |--- pole_angle >  -0.020546
+|   |   |--- cart_position <= -0.887198
+|   |   |   |--- class: 1
+|   |   |--- cart_position >  -0.887198
+|   |   |   |--- class: 1
