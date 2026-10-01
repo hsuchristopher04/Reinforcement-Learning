@@ -1,6 +1,6 @@
 * text=auto eol=lf
 # Evidence hashes cover exact bytes; never normalize the curated snapshots.
-artifacts/** -text
+artifacts/** -text whitespace=cr-at-eol
 *.pt -text
 *.pth -text
 *.png -text
