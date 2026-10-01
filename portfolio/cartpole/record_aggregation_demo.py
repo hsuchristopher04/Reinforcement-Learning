@@ -65,6 +65,8 @@ All three policies were tested on the same 500 fresh reset seeds. The working ba
 <iframe id="viewer" src="baseline.html" title="Teacher and selected policy playback"></iframe>
 <script>document.getElementById('variant').onchange=function(){{document.getElementById('viewer').src=this.value;}};</script></html>'''
     (output/'index.html').write_text(html,encoding='utf-8')
+    from presentation import polish_folder
+    polish_folder(output)
     print(f'Comparison demo saved: {output / "index.html"}; example seeds {seeds}',flush=True)
 
 

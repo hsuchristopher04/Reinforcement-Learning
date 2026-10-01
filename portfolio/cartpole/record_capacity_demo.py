@@ -77,6 +77,8 @@ $('treeDiagram').setAttribute('style',`width:${diagramWidth}px;max-width:none;he
 <p>Switching resets playback. Both pages use the same example seeds. The eight-leaf tree fits in full without diagram scrolling. <a href="../CAPACITY.md">Experiment report</a> · <a href="../demo/index.html">Original demo</a></p></header>
 <iframe id="viewer" src="capacity.html" title="Teacher and tree policy playback"></iframe><script>document.getElementById('variant').onchange=function(){document.getElementById('viewer').src=this.value;};</script></html>'''
     (output/'index.html').write_text(page,encoding='utf-8')
+    from presentation import polish_folder
+    polish_folder(output)
     print(f'Demo built: {output}; examples {[(label,18000000+i) for label,i in examples]}',flush=True)
 
 

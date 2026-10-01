@@ -102,6 +102,8 @@ def main():
     (args.output / "trajectories.json").write_text(json.dumps(data, indent=2), encoding="utf-8")
     template = (ROOT / "demo_template.html").read_text(encoding="utf-8")
     (args.output / "index.html").write_text(template.replace("__DEMO_DATA__", payload.replace("<", "\\u003c")), encoding="utf-8")
+    from presentation import polish_folder
+    polish_folder(args.output)
     print(f"Demo: {args.output / 'index.html'}", flush=True)
     print(f"Tree aggregate: {metrics['tree']['mean_return']}, completion {metrics['tree']['completion_rate']}", flush=True)
 
